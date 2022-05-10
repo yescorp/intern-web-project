@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Intern</title>
+    <link rel="stylesheet" href="styles/header.footer.css">
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/index-media-queries.css">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+    <div id="application">
+        
+        <p id="application-close">X</p>
+        <p>Свяжитесь с нами</p>
+
+        <form action="">
+            <label id="name" for="">Имя</label>
+            
+            <label id="tel" for="">Телефон</label>
+            <input id="name-input" type="text">
+            <input id="tel-input" type="text">
+            <label id="e-mail" for="">E-mail</label>
+            <label id="course-label" for="">Курс</label>
+            <input id="email-input" type="text">
+            <div class="custom-select">
+                <select name="course" id="">
+                    <option value="Pure JS">Pure JS</option>
+                    <option value="MEAN Stack">MEAN Stack</option>
+                    <option value="React">React</option>
+                    <option value="Node.js">Node.js</option>
+                    <option value="C++">C++</option>
+                    <option value="PHP">PHP</option>
+                    <option value="Unity">Unity</option>
+                    <option value="Robotics">Robotics</option>
+                    <option value="Olympic">Olympic</option>
+                    <option value="Python">Python</option>
+                </select>
+            </div>
+            <button>Оставить заявку</button>
+        </form>
+        <div></div>
+    </div>
+
+
+    <div id="hamburger-container">
+        <p>Intern</p>
+        <div>
+            <p id="close-hamburger">x</p>
+            <p>Главная</p>
+            <p>Все курсы</p>
+            <p>О школе</p>
+            <p>Контакты</p>
+            <p class="horbar">&horbar;</p>
+            <p>Галерея</p>
+            <p>Блог</p>
+            <p class="horbar">&horbar;</p>
+            <p>Личный кабинет</p>
+            <p class="horbar">&horbar;</p>
+            <div id="hamburger-social">
+                <img src="img/facebook_dark.png" alt="">
+                
+                <img src="img/telegram_dark.png" alt="">
+                
+                <img src="img/instagram_dark.png" alt="">
+                
+                <img src="img/vk_dark.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div id="wrapper">
+
+
+        <header>
+            <p>Intern</p>
+            <nav>
+                <ul>
+                    <li class="dropdown">
+                        КУРСЫ 
+                        <ul class="dropdown-content">
+                            <li>Pure JS</li>
+                            <li>React</li>
+                            <li>Node.Js</li>
+                            <li>MERN Stack</li>
+                            <li>C++</li>
+                            <li>Olympic programming</li>
+                            <li>Robotics</li>
+                            <li>Unity</li>
+                            <li>Python</li>
+                            <li>JavaSE</li>
+                            <li>Django</li>
+                            <li>Computer-Grammar</li>
+                        </ul>
+                    </li>
+                    <li>О НАС</li>
+                    <li>ОТЗЫВЫ</li>
+                    <li>КОНТАКТЫ</li>
+                </ul>
+            </nav>
+
+            <nav id="nav2">
+                <div id="city" class="dropdown">АЛМАТЫ
+                    <ul class="dropdown-content">
+                        <li>Astana</li>
+                    </ul>
+                </div>
+                <div id="leave-application">Оставить заявку</div>
+                <img src="img/hamburger.png" alt="hamburger" id="hamburger">
+            </nav>
+            
+            <p id="phone-number">+7 (747) 625 71 75</p>
+
+        </header>    
+        <main>
+            <div id="first">
+                <div>
+                    <p id="text-animation">Научись программировать <span>|</span></p>
+                    <div id="consultation">
+                        <div id="consultation-opacity"></div>
+                        <form action="" method="POST">
+                            <p>Бесплатная консультация</p>
+                            <div class="input-field">
+                                <img src="img/user.png" alt="">
+                                <input type="text" placeholder="Ваше имя" required>
+                            </div>
+                            <div class="input-field">
+                                <img src="img/smartphone.png" alt="">
+                                <input type="text" placeholder="Ваш номер" required>
+                            </div>
+                            <div class="input-field">
+                                <img src="img/icons8-mail-48.png" alt="">
+                                <input type="text" placeholder="Ваше e-mail" required>
+                            </div>
+                            <button type="submit">Записаться</button>
+                            <p id="tel">Телефон: +7 (747) 625 71 75</p>
+                        </form>
+                    </div>
+                </div>
+
+                <button id="#free-consultation">
+                    Бесплатная консультация
+                </button>
+            </div>
+
+            <div id="courses">
+                <p>Ближайшие курсы</p>
+                <div class="course-container">
+                    <div class="course">
+                        <div class="course-logo">
+                            <img src="img/olympic-programming.svg" alt="">
+                        </div>
+
+                        <div class="course-description">
+                            <p class="course-name">Курс: "Olympic programming"</p>
+                            <p class="course-teacher">Преподаватель: Сафаргалиев Темирлан</p>
+                            <p class="course-level">Уровень: продвинутый</p>
+                            <p class="course-description-text">Курс направлен на подготовку детей и развитие навыков решения олимпиадных задач по спортивному программированию, что позволит им успешно участвовать в олимпиадах и даст возможность профессионального развития в этой области.</p>
+                            <p class="start">Старт: 6 мая</p>
+                            <p class="duration">Длительность: 12 недель</p>
+                            <p class="class-schedule">Время занятий: ЧТ СБ 15:00-17:00</p>
+                            <p class="price">Цена: 25,000 тнг/мес</p>
+                            <a href="" class="learn-more">Подробнее<br>----------------</a>
+                            <button class="join-course">Записаться</button>
+                        </div>
+                    </div>
+
+                    <div class="course">
+                        <div class="course-logo">
+                            <img src="img/olympic-programming.svg" alt="">
+                        </div>
+
+                        <div class="course-description">
+                            <p class="course-name">Курс: "Olympic programming"</p>
+                            <p class="course-teacher">Преподаватель: Сафаргалиев Темирлан</p>
+                            <p class="course-level">Уровень: продвинутый</p>
+                            <p class="course-description-text">Курс направлен на подготовку детей и развитие навыков решения олимпиадных задач по спортивному программированию, что позволит им успешно участвовать в олимпиадах и даст возможность профессионального развития в этой области.</p>
+                            <p class="start">Старт: 6 мая</p>
+                            <p class="duration">Длительность: 12 недель</p>
+                            <p class="class-schedule">Время занятий: ЧТ СБ 15:00-17:00</p>
+                            <p class="price">Цена: 25,000 тнг/мес</p>
+                            <a href="" class="learn-more">Подробнее<br>----------------</a>
+                            <button class="join-course">Записаться</button>
+                        </div>
+                    </div>
+
+                    <div class="course">
+                        <div class="course-logo">
+                            <img src="img/olympic-programming.svg" alt="">
+                        </div>
+
+                        <div class="course-description">
+                            <p class="course-name">Курс: "Olympic programming"</p>
+                            <p class="course-teacher">Преподаватель: Сафаргалиев Темирлан</p>
+                            <p class="course-level">Уровень: продвинутый</p>
+                            <p class="course-description-text">Курс направлен на подготовку детей и развитие навыков решения олимпиадных задач по спортивному программированию, что позволит им успешно участвовать в олимпиадах и даст возможность профессионального развития в этой области.</p>
+                            <p class="start">Старт: 6 мая</p>
+                            <p class="duration">Длительность: 12 недель</p>
+                            <p class="class-schedule">Время занятий: ЧТ СБ 15:00-17:00</p>
+                            <p class="price">Цена: 25,000 тнг/мес</p>
+                            <a href="" class="learn-more">Подробнее<br>----------------</a>
+                            <button class="join-course">Записаться</button>
+                        </div>
+                    </div>
+
+                    <div class="course">
+                        <div class="course-logo">
+                            <img src="img/olympic-programming.svg" alt="">
+                        </div>
+
+                        <div class="course-description">
+                            <p class="course-name">Курс: "Olympic programming"</p>
+                            <p class="course-teacher">Преподаватель: Сафаргалиев Темирлан</p>
+                            <p class="course-level">Уровень: продвинутый</p>
+                            <p class="course-description-text">Курс направлен на подготовку детей и развитие навыков решения олимпиадных задач по спортивному программированию, что позволит им успешно участвовать в олимпиадах и даст возможность профессионального развития в этой области.</p>
+                            <p class="start">Старт: 6 мая</p>
+                            <p class="duration">Длительность: 12 недель</p>
+                            <p class="class-schedule">Время занятий: ЧТ СБ 15:00-17:00</p>
+                            <p class="price">Цена: 25,000 тнг/мес</p>
+                            <a href="" class="learn-more">Подробнее<br>----------------</a>
+                            <button class="join-course">Записаться</button>
+                        </div>
+                    </div>
+
+                    <div class="course">
+                        <div class="course-logo">
+                            <img src="img/olympic-programming.svg" alt="">
+                        </div>
+
+                        <div class="course-description">
+                            <p class="course-name">Курс: "Olympic programming"</p>
+                            <p class="course-teacher">Преподаватель: Сафаргалиев Темирлан</p>
+                            <p class="course-level">Уровень: продвинутый</p>
+                            <p class="course-description-text">Курс направлен на подготовку детей и развитие навыков решения олимпиадных задач по спортивному программированию, что позволит им успешно участвовать в олимпиадах и даст возможность профессионального развития в этой области.</p>
+                            <p class="start">Старт: 6 мая</p>
+                            <p class="duration">Длительность: 12 недель</p>
+                            <p class="class-schedule">Время занятий: ЧТ СБ 15:00-17:00</p>
+                            <p class="price">Цена: 25,000 тнг/мес</p>
+                            <a href="" class="learn-more">Подробнее<br>----------------</a>
+                            <button class="join-course">Записаться</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="accepting-applications">
+                <div>
+                    <p>До конца приёма заявок осталось:</p>
+                    <div>
+                        <div>
+                            <p class="time-name">Часов<br>.......................</p>
+                            <p class="time-amount" id="hours">2</p>
+                        </div>
+                        <div>
+                            <p class="time-name">Минут<br>.......................</p>
+                            <p class="time-amount" id="minutes">9</p>
+                        </div>
+                        <div>
+                            <p class="time-name">Секунд<br>.......................</p>
+                            <p class="time-amount" id="seconds">35</p>
+                        </div>
+                    </div>
+                    <button id="leave-application-timer">Подать завяку</button>
+                </div>
+            </div>
+
+            <div id="statistics">
+                <div id="left">
+                    <a href="https://decode.kz?wvideo=2xqmttj5l3"><img src="https://embedwistia-a.akamaihd.net/deliveries/4e7be66bb82d3016a5e303528682641e.jpg?wistia-2xqmttj5l3-1-2xqmttj5l3-video-thumbnail=1&amp;image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=54bbffe0" width="400" height="225" style="width: 400px; height: 225px;"></a>
+                    <button>Узнать больше</button>
+                </div>
+                <div id="right">
+                    <p>2193</p>
+                    <p>выпускников</p>
+                    <p>68%</p>
+                    <p>успешно трудоустроились</p>
+                    <p>98%</p>
+                    <p>готовы нас рекомендовать</p>
+                    <p>9816</p>
+                    <p>проведенных часов</p>
+                </div>
+            </div>
+
+            <div id="sertificates">
+                <p>По окончанию курсов выдаются сертификаты:</p>
+                <div>
+                    <img src="img/sertificate.png" alt="sertificate">
+                    <img src="img/sertificate.png" alt="sertificate">
+                    <img src="img/sertificate.png" alt="sertificate">
+                    <img src="img/sertificate.png" alt="sertificate">
+                </div>
+            </div>
+
+
+            <div id="features">
+                <div id="partners">
+                    <p>Наши партнеры</p>
+                    <div class="partners-container">
+                        <img src="img/partner1.png" alt="">
+                        <img src="img/partner2.png" alt="">
+                        <img src="img/partner3.png" alt="">
+                        <img src="img/partner4.png" alt="">
+                    </div>
+                </div>
+                <p>8 Фишек нашей школы</p>
+                <div id="feature-container">
+                    <div class="feature">
+                        <img src="img/feature1.svg" alt="feature">
+                        <h5>HARDCORE NIGHT</h5>
+                        <p>24 часа кодинга в режиме нон-стоп в командах над крутыми системами.</p>
+                    </div>
+                    <div class="feature">
+                        <img src="img/feature2.svg" alt="feature">
+                        <h5>ВСТРЕЧИ С ЛУЧШИМИ СПИКЕРАМИ</h5>
+                        <p>Постоянные практикумы от ведущих IT специалистов в непринужденной обстановке.</p>
+                    </div>
+                    <div class="feature">
+                        <img src="img/feature3.svg" alt="feature">
+                        <h5>ТУРЫ ПО IT-КОМПАНИЯМ</h5>
+                        <p>Дни открытых дверей в компаниях Kolesa, Chocofamily, IBEC Systems, Automato, Qiwi.</p>
+                    </div>
+                    <div class="feature">
+                        <img src="img/feature4.svg" alt="feature">
+                        <h5>RELAX CLUB</h5>
+                        <p>Тимбилдинги для разрядки мозга по выходным ( футбольные матчи, Playstation, пикники)</p>
+                    </div>
+                    <div class="feature">
+                        <img src="img/feature5.svg" alt="feature">
+                        <h5>DECODE LIFE</h5>
+                        <p>Следите за своим прогрессом и записывайте каждодневные инсайты.</p>
+                    </div>
+                    <div class="feature">
+                        <img src="img/feature6.svg" alt="feature">
+                        <h5>ПРАКТИКА В IT-КОМПАНИЯХ</h5>
+                        <p>Гарантированное трудостройство на стажировки после получения сертификата. А самых лучших студентов ждет работа в Qiwi.</p>
+                    </div>
+                    <div class="feature">
+                        <img src="img/feature7.svg" alt="feature">
+                        <h5>ПЕРВЫЙ КЭШ</h5>
+                        <p>Получи свой первый заказ от реального клиента.</p>
+                    </div>
+                    <div class="feature">
+                        <img src="img/feature8.svg" alt="feature">
+                        <h5>ГАРАНТИЯ ВОЗВРАТА ДЕНЕГ</h5>
+                        <p>Если вам не понравится курс в течении 2-недель, мы возвращаем деньги.</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <div id="address">
+                <p>Наш адрес</p>
+                <p>Республика Казахстан, г. Алматы
+                    Абая проспект, 52в, 512 офис</p>
+            </div>
+            <div id="contact-us">
+                <p>Свяжитесь с нами</p>
+                <p>+7 (747) 625 71 75 <br>
+                    decode.school@gmail.com
+                </p>
+            </div>
+            <div id="social-networks">
+                <p>Мы в соц. сетях</p>
+                <div id="social">
+                    <a href=""><img src="img/facebook.png" alt=""></a>
+                    <a href=""><img src="img/vk.png" alt=""></a>
+                    <a href=""><img src="img/instagram.png" alt=""></a>
+                </div>
+            </div>
+            <p>&copy Decode Group 2020 | Все права защищены | 
+                <span>Публичный договор-оферта</span>
+            </p>
+        </footer>
+        
+    </div>
+    <script src="scripts/index.js"></script>
+</body>
+</html>

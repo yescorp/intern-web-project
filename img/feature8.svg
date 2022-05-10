@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 11</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="86.78333%" y1="76.0766107%" x2="6.61772951%" y2="4.08898977%" id="linearGradient-1">
+            <stop stop-color="#4A7BF1" offset="0%"></stop>
+            <stop stop-color="#1B50CE" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-21.8899866%" y1="65.7041698%" x2="100%" y2="50%" id="linearGradient-2">
+            <stop stop-color="#2D66BE" offset="0%"></stop>
+            <stop stop-color="#143689" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-17.8153842%" y1="50%" x2="100%" y2="50%" id="linearGradient-3">
+            <stop stop-color="#5CE6FF" offset="0%"></stop>
+            <stop stop-color="#2FC8FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="сareers-aug-18" transform="translate(-792.000000, -1893.000000)">
+            <g id="Group-11" transform="translate(791.000000, 1892.000000)">
+                <rect id="Rectangle-23-Copy-6" fill="#D8D8D8" fill-rule="nonzero" opacity="0" x="0" y="0" width="50" height="50"></rect>
+                <path d="M11.72864,49 C11.32592,49 11,48.5845818 11,48.0720291 L11,2.00494337 C11,1.44992847 11.4532303,1 11.9968754,1 L48.0031246,1 C48.5536837,1 49,1.45699156 49,2.00514827 L49,39.3153543 L38.9997718,49 L11.72864,49 Z" id="Fill-6-Copy" fill="url(#linearGradient-1)"></path>
+                <path d="M39,48.7509222 L49.0017643,39.0610265 L49.0017643,47.0614571 C49.0017643,48.1658203 48.1141744,49.0335588 47.0017965,48.9990632 L39,48.7509222 Z" id="Fill-6-Copy-2" fill="url(#linearGradient-2)" transform="translate(44.000882, 44.030542) rotate(-180.000000) translate(-44.000882, -44.030542) "></path>
+                <polygon id="Fill-18-Copy" fill="url(#linearGradient-3)" points="17 9 43 9 43 6 17 6"></polygon>
+                <polygon id="Fill-18-Copy-2" fill="url(#linearGradient-3)" points="17 14 31 14 31 11 17 11"></polygon>
+                <polygon id="Fill-18-Copy-4" fill="#FFFFFF" points="24 37 27 37 27 30 24 30"></polygon>
+                <polygon id="Fill-18-Copy-5" fill="#FFFFFF" points="29 37 32 37 32 27 29 27"></polygon>
+                <polygon id="Fill-18-Copy-6" fill="#FFFFFF" points="34 37 37 37 37 23 34 23"></polygon>
+                <polygon id="Fill-18-Copy-7" fill="#FFFFFF" points="39 37 42 37 42 19 39 19"></polygon>
+                <circle id="Oval-15" fill="url(#linearGradient-3)" cx="12" cy="36" r="11"></circle>
+                <path d="M16.76483,32.1184081 C16.5980587,31.9594782 16.3300217,31.9606404 16.1658766,32.1212744 L11.1624759,37.0176484 C10.9984544,37.1781614 10.7285325,37.1793359 10.5649438,37.0253141 L7.77935812,34.4026313 C7.61337178,34.2463519 7.34908399,34.2522345 7.18704757,34.4178216 L6.11730957,35.5110006 C5.95617182,35.6756693 5.96190172,35.9383776 6.12917688,36.0968939 L10.6198612,40.3524371 C10.7875531,40.5113483 11.0555285,40.5094395 11.2167,40.349858 L17.880728,33.751571 C18.0426611,33.5912354 18.039669,33.3333059 17.8719675,33.1734895 L16.76483,32.1184081 Z" id="Icons-/-Checkmark" fill="#183F9C"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,457 @@
+header {
+    font-size: 14px;
+    width: 100%;
+    height: 50px;
+    background-color:#1ba3d5;
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
+    column-gap: 100px;
+    color: #ffffff;
+    font-family: sans-serif;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+header ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+header ul li {
+    padding: 19px;
+    list-style: none;
+    height: 12px;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+header ul li:hover {
+    background-color: #0484b4;
+    cursor:pointer;
+    
+}
+
+header > p {
+    margin-left: 50px;
+    padding: 13px 10px;
+    font-size: 1.5em;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+header > p:hover {
+    cursor: pointer;
+}
+
+header #nav2 div {
+    padding: 17px;
+    text-align: center;    
+}
+
+header #nav2 div:hover {
+    background-color: #0484b4;
+}
+
+#city {
+    position: absolute;
+    right: 260px;
+}
+
+#leave-application {
+    position: absolute;
+    right: 90px;
+    border-radius: 10px;
+    border: 1px dashed white;
+    padding: 0;
+    line-height: 6px;
+}
+
+#leave-application:hover{
+    cursor: pointer;
+}
+
+@keyframes application-animation {
+    from{
+        right: -100%;
+    }
+
+    to {
+        right: 0;
+    }
+}
+
+@keyframes application-animation-reverse {
+    from{
+        right: 0;
+    }
+    to {
+        right: -100%;
+    }
+}
+
+#application {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index:5;
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/programming-1280x720-1-1024x576.jpg");
+    background-size: cover;
+    background-color: white;    
+    visibility: hidden;
+}
+
+#application > div {
+    position: fixed;
+    z-index: -2;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+
+#application * {
+    font-family: sans-serif;
+    z-index: inherit;
+}
+
+#application p:first-child {
+    position: absolute;
+    right: 30px;
+    top: 15px;
+    color: white;
+    font-size: 2em;
+}
+
+#application p:first-child:hover{
+    cursor: pointer;
+}
+
+#application p:nth-child(2){
+    margin: 0px auto;
+    padding: 80px;
+    color: white;
+    font-size: 2.2em;
+    background-color:rgba(71, 118, 179, 0.6);
+    background-blend-mode: luminosity;
+}
+
+#application form {
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 30px;
+    padding: 50px 250px;
+}
+
+#application form input {
+    height: 30px;
+    border: none;
+
+    border-bottom: 1px solid rgb(28, 141, 186);
+    margin-bottom: 30px;
+}
+
+#application form label {
+    color:rgb(28, 141, 186);
+    margin-bottom: 20px;
+}
+
+#application form button {
+    grid-column: 1/3;
+    width: 50%;
+    margin: 20px auto;
+    background-color: #0484b4;
+    color: white;
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+    width: 330px;
+    font-size: 1.1em;
+}
+
+/* The container must be positioned relative: */
+.custom-select {
+    position: relative;
+    font-family: Arial;
+  }
+  
+  .custom-select select {
+    display: none; /*hide original SELECT element: */
+  }
+  
+  .select-selected {
+    background-color: DodgerBlue;
+  }
+  
+  /* Style the arrow inside the select element: */
+  .select-selected:after {
+    position: absolute;
+    content: "";
+    top: 14px;
+    right: 10px;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-color: #fff transparent transparent transparent;
+  }
+  
+  /* Point the arrow upwards when the select box is open (active): */
+  .select-selected.select-arrow-active:after {
+    border-color: transparent transparent #fff transparent;
+    top: 7px;
+  }
+  
+  /* style the items (options), including the selected item: */
+  .select-items div,.select-selected {
+    color: #ffffff;
+    padding: 8px 16px;
+    border: 1px solid transparent;
+    border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+    cursor: pointer;
+  }
+  
+  /* Style items (options): */
+  .select-items {
+    position: absolute;
+    background-color: DodgerBlue;
+    /*top: 100%;*/
+    bottom: 60px;
+    left: 0;
+    right: 0;
+    z-index: 99;
+  }
+  
+  /* Hide the items when the select box is closed: */
+  .select-hide {
+    display: none;
+  }
+  
+  .select-items div:hover, .same-as-selected {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+
+#hamburger{
+    position: absolute;
+    right: 15px;
+    
+}
+
+#leave-application {
+    height: 10%;
+    padding: 0;
+    margin: 0;
+    margin-top: 5px;
+    padding-bottom: 5px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    left: -40px;
+    top: 50px;
+    background-color: #0484b4;
+    width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 3;
+  }
+
+.dropdown:hover {
+    cursor:pointer;
+}
+
+.dropdown:hover .dropdown-content {
+   display: block;
+   padding: 0px;
+   
+  }
+
+.dropdown-content li {
+    border: 1px solid #047ca4;
+    padding: 12px;
+}
+
+.dropdown-content li:hover {
+    background-color: white;
+    color: #0484b4;
+}
+
+#phone-number {
+    position: absolute;
+    display: none;
+}
+
+#hamburger {
+    padding: 5px;
+
+}
+
+#hamburger:hover {
+    cursor: pointer;
+}
+
+#hamburger-container {
+    background-color: rgba(255, 255, 255, 0.479);
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    visibility: hidden;
+}
+
+#hamburger-container > p{
+    z-index: 4;
+    text-align: left;
+    position: absolute;
+    left: 50px;
+    top: 0;
+    padding: 7px 20px;
+    font-size: 2em;
+    background-color: black;
+    color: white;
+    letter-spacing: 3px;
+}
+
+#hamburger-container > div {
+    position: absolute;
+    right: -600px;
+    margin-top: 30px;
+    width: 600px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.hamburger-animation {
+    animation: hamburger-animation;
+    animation-duration: 0.3s;
+}
+
+@keyframes hamburger-animation {
+    from{
+        right: -600px;
+        transform: skew(20deg, 0deg);
+    }
+    to{
+        right: 0;
+        transform: skew(0deg, 0deg);
+    }
+}
+
+@keyframes hamburger-animation-reverse {
+    from{
+        right: 0px;
+        transform: skew(0deg, 0deg);
+    }
+    to {
+        right: -600px;
+        transform: skew(20deg, 0deg);
+    }
+    
+}
+
+#hamburger-container > div > p {
+    color: rgba(255, 255, 255, 0.795);
+    padding: 10px;
+    text-align: right;
+    margin-right: 50px;
+    text-transform: uppercase;
+    font-size: 1.2em;
+}
+
+#hamburger-container * {
+    z-index: inherit;
+}
+
+#hamburger-container > div > div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    z-index: inherit;
+    width: 90%;
+    margin: 40px auto;
+    padding-bottom: 10px;
+    border-top: 1px solid rgba(255, 255, 255, 0.9);
+}
+
+#hamburger-container > div > div > img {
+    width: 48px;
+    z-index: inherit;
+    margin: 0px auto;
+    padding: 15px 0px;
+    
+}
+
+
+#hamburger-container > div > p:hover{
+    color: white;
+    cursor: pointer;
+}
+
+#hamburger-container > div > p:first-child{
+    margin-right: 0;
+}
+
+.horbar {
+    color: white !important;
+}
+
+.horbar:hover{
+    cursor:default !important;
+}
+
+footer {
+    padding: 40px 200px;
+    margin-top: 200px;
+    background-color: rgb(12, 12, 12);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 20px;
+}
+
+footer * {
+    font-family: sans-serif;
+    text-align: left !important;
+}
+
+footer > div p:nth-child(1) {
+    font-size: 1.2em;
+    color: rgba(252, 252, 252, 0.884);
+}
+
+footer > div p:nth-child(2) {
+    color: rgb(133, 133, 133);
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-right: 30px;
+    line-height: 1.5em;
+}
+
+footer > p {
+    padding: 50px 0 20px 0;
+    grid-column: 1/4;
+    color: rgba(252, 252, 252, 0.884);
+    border-top: 1px solid rgba(228, 228, 228, 0.411);
+    font-size: 1.1em;
+}
+
+footer > p > span {
+    text-decoration: underline;
+}
+
+footer > p > span:hover {
+    cursor:pointer;
+}
+
+#social {
+    margin-top: 20px;
+}
+
+#social img {
+    height: 32px;
+    border-radius: 50%;
+    margin-right: 10px;
+}

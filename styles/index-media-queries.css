@@ -1,0 +1,591 @@
+@media (max-width: 1200px){
+    
+    header {
+        display: grid;
+        grid-template-columns: 1fr 3fr 2fr;
+    }
+
+    #statistics #left img {
+        transform: scale(1.9);
+    }
+}
+
+@media (max-width: 1024px){
+    header {
+        display: grid;
+        grid-template-columns: 1fr 3fr 2fr;
+    }
+
+    .course-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding-left: 50px;
+    }
+    
+    .course-container .course {
+        width: 80%;
+        margin: 4%;
+    }
+
+    #first > div {
+        display: block;
+    }
+
+    #first > div > p{
+        margin-right: 50px;
+    }
+
+    #first > button {
+        visibility: visible;
+    }
+
+    #consultation {
+        display: none;
+    }
+
+    #feature-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    #statistics #left img {
+        transform: scale(1.7);
+        position: absolute;
+        left: 190px;
+    }
+
+    #partners {
+        left: 100px;
+    }
+
+    footer > div {
+        font-size: 0.8em;
+    }
+}
+
+@media (max-width: 768px){
+
+    #application form {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    header ul{
+        display: none;
+    }
+
+    #city {
+        right: 260px;
+    }
+
+    #first div #text-animation{
+        padding: 180px 0px 0px 80px;
+    }
+
+    .course-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding-left: 10px;
+        column-gap: 10px;
+    }
+    
+    .course-container .course {
+        width: 90%;
+        margin: 4%;
+    }
+
+    
+    .course-name{
+    font-weight: 700;
+    color: darkslategray;
+    font-size: 1.3em;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    }
+
+    .course-teacher {
+    font-size: 1.1em;
+    color: gray;
+    margin-bottom: 5px;
+    }
+
+    .course-level {
+    font-size: 1.1em;
+    color: gray;
+    margin-bottom: 5px;
+    }
+
+    .course-description-text {
+    font-size: 1.3em;
+    color: gray;
+    }
+
+    .start {
+    font-weight: 700;
+    color: darkslategray;
+    font-size: 1.1em;
+    margin-top: 10px;
+    }
+
+    .duration {
+    
+    font-weight: 700;
+    color: darkslategray;
+    font-size: 1.1em;
+    }
+
+    .class-schedule {
+    font-weight: 700;
+    color: darkslategray;
+    font-size: 1.1em;
+    }
+
+    .price {
+    font-weight: 700;
+    color: darkslategray;
+    font-size: 1.1em;
+    }
+
+
+    .course-description a {
+    display: block;
+    padding: 15px 15px 5px 15px;
+    font-family: sans-serif;
+    color: rgb(28, 141, 186);
+    text-decoration: none;
+    line-height: 8px;
+    font-size: 1.1em;
+    }
+
+
+    #consultation {
+        display: none;
+    }
+
+    #accepting-applications > div > div {
+        width: 80%;
+    }
+
+    #accepting-applications button {
+        width: 200px;
+        margin: 40px 285px;
+    }
+
+    #statistics {
+        display: block;
+    }
+
+    #statistics #left {
+        height: 300px;
+    }
+
+    #statistics #left img {
+        transform: scale(1.7);
+        position: absolute;
+        left: 190px;
+        top: 70px;
+    }
+
+    #statistics #left button {
+        left: 38%;
+    }
+
+    #statistics #right{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding-bottom: 30px;
+    }
+
+    #statistics #right p:nth-child(1){
+        grid-row: 1;
+    }
+
+    #statistics #right p:nth-child(2){
+        grid-row: 2;   
+    }
+
+    #statistics #right p:nth-child(3){
+        grid-row: 1;   
+    }
+
+    #statistics #right p:nth-child(4){
+        grid-row: 2;   
+    }
+
+    #statistics #right p:nth-child(5){
+        grid-row: 3;   
+    }
+
+    #statistics #right p:nth-child(6){
+        grid-row: 4;   
+    }
+
+    #statistics #right p:nth-child(7){
+        grid-row: 3;   
+    }
+
+    #statistics #right p:nth-child(8){
+        grid-row: 4;   
+    }
+
+    #sertificates > div{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #sertificates > div img {
+        width: 300px;
+    }
+
+    #feature-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    #partners{
+        left: 80px;
+        bottom: -150px;
+    }
+
+    .partners-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 30px;
+        column-gap: 60px;
+    }
+
+    footer {
+        padding: 40px 50px;
+        
+    }
+}
+
+@media (max-width: 425px){
+
+    #application {
+        overflow: auto;
+    }
+
+    #application p:nth-child(2){
+        font-size: 1.7em;
+    }
+
+    #application form {
+        display: grid;
+        grid-template-columns: 1fr;
+        
+    }
+
+    #application form button {
+        grid-column: 1;
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    #name{
+        grid-row: 1;
+    }
+
+    #name-input {
+        grid-row: 2;
+    }
+
+    #tel {
+        grid-row: 3;
+    }
+
+    #tel-input {
+        grid-row: 4;
+    }
+
+    #e-mail{
+        grid-row: 5;
+    }
+
+    #email-input {
+        grid-row: 6;
+    }
+
+    #course-label{
+        grid-row: 7;
+    }
+
+    .custom-select {
+        grid-row: 8;
+    }
+
+    #hamburger-container {
+        width: 100%;
+        overflow: auto;
+    }
+
+    #hamburger-container > div > div > img {
+        width: 32px;
+    }
+
+    #hamburger-container > div > div {
+        margin: 0;
+        padding: 0;
+        width: 72%;
+        position: absolute;
+        margin-top: 20px;
+        right: 200px;
+    }
+
+    #phone-number {
+        display: block;
+        position: absolute;
+        top: 15px;
+        right: 80px;
+        font-size: 1.1em;
+        z-index: inherit;
+        padding: 0;
+        margin: 0;
+    }
+
+    #hamburger-container {
+        background-color: rgba(255, 255, 255, 0.479);
+        position: fixed;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        height: 100%;
+        z-index: 2;
+        visibility: hidden;
+    }
+
+    header {
+        display: block;
+    }
+
+    header > p{
+        text-align: left;
+        margin-left: 20px;
+    }
+
+    #nav2 {
+        grid-column: 1/2;
+    }
+
+    #city {
+        width: 100px;
+        bottom: -50px;
+        left:0px;
+        background-color:rgb(28, 141, 186);
+    }
+
+    #leave-application{
+        display: none;
+    }
+
+    #hamburger {
+        top: 0;
+    }
+    
+    header ul{
+        display: none;
+    }
+
+    #first div #text-animation{
+        padding: 200px 0px 0px 40px;
+        font-size: 1.4em;
+    }
+
+    .course-container {
+        display: block;
+        padding: 0;
+        padding-left: 10px;
+        padding-bottom: 50px;
+    }
+    
+    .course-container .course {
+        width: 90%;
+        margin:0;
+        margin-left: 15px;
+        margin-top: 20px;
+    }
+
+    
+    .course-name{
+    font-weight: 700;
+    color: darkslategray;
+    font-size: 1.3em;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    }
+
+    .course-teacher {
+    font-size: 1.1em;
+    color: gray;
+    margin-bottom: 5px;
+    }
+
+    .course-level {
+    font-size: 1.1em;
+    color: gray;
+    margin-bottom: 5px;
+    }
+
+    .course-description-text {
+    font-size: 1.3em;
+    color: gray;
+    }
+
+    .start {
+    font-weight: 700;
+    color: darkslategray;
+    font-size: 1.1em;
+    margin-top: 10px;
+    }
+
+    .duration {
+    
+    font-weight: 700;
+    color: darkslategray;
+    font-size: 1.1em;
+    }
+
+    .class-schedule {
+    font-weight: 700;
+    color: darkslategray;
+    font-size: 1.1em;
+    }
+
+    .price {
+    font-weight: 700;
+    color: darkslategray;
+    font-size: 1.1em;
+    }
+
+    .course-description a {
+    display: block;
+    padding: 15px 15px 5px 15px;
+    font-family: sans-serif;
+    color: rgb(28, 141, 186);
+    text-decoration: none;
+    line-height: 8px;
+    font-size: 1.1em;
+    }
+
+    #consultation {
+        display: none;
+    }
+
+    #accepting-applications > div > div {
+        width: 80%;
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 20px;
+    }
+
+    #accepting-applications button {
+        width: 200px;
+        margin: 40px 115px;
+    }
+
+    #statistics {
+        display: block;
+    }
+
+    #statistics #left {
+        height: 200px;
+    }
+
+    #statistics #left img {
+        transform: scale(1);
+        position: absolute;
+        left: 10px;
+        top: 20px;
+    }
+
+    #statistics #left button {
+        left: 38%;
+    }
+
+    #statistics #right{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding-bottom: 30px;
+    }
+
+    #statistics #right p:nth-child(1){
+        grid-row: 1;
+    }
+
+    #statistics #right p:nth-child(2){
+        grid-row: 2;   
+    }
+
+    #statistics #right p:nth-child(3){
+        grid-row: 1;   
+    }
+
+    #statistics #right p:nth-child(4){
+        grid-row: 2;   
+    }
+
+    #statistics #right p:nth-child(5){
+        grid-row: 3;   
+    }
+
+    #statistics #right p:nth-child(6){
+        grid-row: 4;   
+    }
+
+    #statistics #right p:nth-child(7){
+        grid-row: 3;   
+    }
+
+    #statistics #right p:nth-child(8){
+        grid-row: 4;   
+    }
+
+    #sertificates > div{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    #sertificates > div img {
+        width: 300px;
+    }
+
+    #feature-container {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    #partners{
+        width: 100%;
+        left: 0px;
+        bottom: -150px;
+        padding: 0;
+    }
+
+    .partners-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 30px;
+        column-gap: 20px;
+    }
+
+    .partners-container img {
+        width: 100px;
+        margin: 30px;
+    }
+
+    footer {
+        padding: 40px 50px;
+        display: block;
+    }
+
+    footer > div {
+        margin-top: 20px;
+        margin-bottom: 20px ;
+    }
+
+    #hamburger-container > div{
+        margin:0px;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.752);
+    }
+}

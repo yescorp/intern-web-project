@@ -1,0 +1,510 @@
+* {
+    padding:0%;
+    margin: 0%;
+}   
+
+button:hover{
+    cursor: pointer;
+}
+
+input:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+#first {
+    background-image: url("../img/programming-1280x720-1-1024x576.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    position: relative;
+    height: 590px;
+    overflow: hidden;
+}
+
+#first > div {
+    background-color: rgba(0, 0, 0, 0.6);
+    
+}
+
+#first > div {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    position: relative;
+    height: inherit;
+}
+
+#first > div > p {
+    color: white;
+    padding-right: 20px;
+    padding-left: 200px;
+    padding-top: 200px;
+    padding-bottom: 0px;
+    font-size: 2.3em;
+    font-family: sans-serif;
+    text-align: left;
+}
+
+#first > button {
+    position: absolute;
+    bottom :50px;
+    left: 50px;
+    background-color: #0484b4;
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 3px;
+    width: 330px;
+    font-size: 1.1em;
+
+    z-index: inherit;
+
+    visibility: hidden;
+}
+
+#first > button:hover{
+    background-color: #044ab4;
+}
+
+#first > div > p > span {
+    border-bottom: 1px solid rgba(240, 240, 240, 0.9);
+}
+
+#consultation {
+    border-radius: 10px;
+    margin-top: 90px;
+    margin-bottom: 150px;
+    height: 350px;
+    position: relative;
+    margin-right: 20px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+form {
+    padding-top: 50px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+form img {
+    height: 32px;
+    margin: 3px;
+}
+
+form p{
+    font-family: sans-serif;
+    text-align: center; 
+}
+
+#consultation form :first-child {
+    font-size: 1.5em;
+}
+
+.input-field {
+    display: grid;
+    grid-template-columns: 10% 90%;
+    border: 1px solid silver;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+#consultation input {
+    margin-left: 5px;
+    height: 32px;
+    padding: 2px;
+    padding-left: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: rgba(27, 163, 255, 0.2);
+    color: white;
+}
+
+::placeholder {
+    color: white;
+}
+
+#consultation form button{
+    background-color: #0484b4;
+    color: white;
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+    margin: 0px 10px 10px 10px;
+    width: 330px;
+    font-size: 1.1em;
+}
+
+form #tel {
+    margin-top: 20px;
+}
+
+
+#courses > p {
+    padding: 40px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 2.2em;
+}
+
+.course-container {
+    padding: 0px 20px 10px 10px;
+}
+
+.course {
+    margin-bottom: 50px;
+    margin-left: 35px;
+    width: 30%;
+    display: inline-block;
+    box-shadow: 15px 15px 50px 10px rgba(0, 0, 0, 0.6);
+    border-top-left-radius: 25px;
+}
+
+.course-logo {
+    background-color: black;
+    
+    border-top-left-radius: 25px;
+}
+
+.course-logo img {
+    width: 64px;
+    margin-left: calc(60% - 64px);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.course-description {
+    position: relative;
+    padding-bottom: 50px;
+}
+
+.course-description > p{
+    text-align: left;
+    padding: 5px 15px 5px 15px;
+    font-family: sans-serif;
+    
+}
+
+.course-name{
+    font-weight: 700;
+    color: darkslategray;
+    font-size: 1.1em;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.course-teacher {
+    font-size: 0.9em;
+    color: gray;
+    margin-bottom: 5px;
+}
+
+.course-level {
+    font-size: 0.9em;
+    color: gray;
+    margin-bottom: 5px;
+}
+
+.course-description-text {
+    font-size: 0.9em;
+    color: gray;
+}
+
+.start {
+    font-weight: 700;
+    color: darkslategray;
+    font-size: 0.9em;
+    margin-top: 10px;
+}
+
+.duration {
+    
+    font-weight: 700;
+    color: darkslategray;
+    font-size: 0.9em;
+}
+
+.class-schedule {
+    font-weight: 700;
+    color: darkslategray;
+    font-size: 0.9em;
+}
+
+.price {
+    font-weight: 700;
+    color: darkslategray;
+    font-size: 0.9em;
+}
+
+
+.course-description a {
+    display: block;
+    padding: 15px 15px 5px 15px;
+    font-family: sans-serif;
+    color: rgb(28, 141, 186);
+    text-decoration: none;
+    line-height: 8px;
+}
+
+.join-course {
+    border: none;
+    padding: 7px 15px;
+    border-radius: 5px;
+    background-color: #1ba3d5;
+    color: white;
+    text-align: center;
+    font-size: 17px;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+}
+
+#accepting-applications {
+    background-image: url("../img/back2.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 150%;
+    background-position: center;
+    color: white;
+}
+
+#accepting-applications > div {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+#accepting-applications > div > p {
+    padding: 50px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 2em;
+    text-transform: uppercase;
+}
+
+#accepting-applications > div > div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 30px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+#accepting-applications > div > div > div {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 1px dotted white;
+}
+
+#accepting-applications > div > div > div > .time-name{ 
+    text-align: center;
+    line-height: 15px;
+    font-size: 1.3em;
+}
+
+
+#accepting-applications > div > div > div > .time-amount {
+    font-size: 2em;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+
+#accepting-applications button {
+    width: 15%;
+    color: white;
+    background-color: #1ba3d5;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    padding: 20px;
+    font-size: 1.2em;
+    margin-left: 42.5%;
+    border: none;
+    border-radius: 10px;
+}
+
+#statistics {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    background-color: white;
+}
+
+#left {
+    background-color: rgb(248, 248, 248);
+    padding: 40px 50px 150px 0px;
+    position: relative;
+}
+
+#left a{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 450px;
+}
+
+#left img {
+    position: absolute;
+    top: 150px;
+    left: 250px;
+    transform: scale(2);
+}
+
+#left div {
+    
+    background-color: rgb(248, 248, 248);
+    border: 1px solid rgb(14, 134, 150);
+}
+
+#left button {
+    margin-top: 20px;
+    width: 250px;
+    height: 40px;
+    right: 15px;
+    bottom: 15px;
+    position: absolute;
+    border-radius: 0;
+    border: 1px solid rgb(14, 134, 150);
+    color: rgb(14, 134, 150);
+    background-color: rgb(248, 248, 248);
+    transition: outline 0.3s;
+    transition: outline-offset 0.3s;
+    outline: 1px solid rgb(14, 134, 150);
+    outline-offset: 0px;
+    text-transform: uppercase;
+}
+
+#left button:hover {
+    outline: 0px solid white;
+    outline-offset: 15px;
+    animation: button;
+    animation-duration: 0.3s;
+}
+
+@keyframes button {
+    from {
+        outline: 1px solid rgb(14, 134, 150);
+        outline-offset: 0px;
+    }
+    to {
+        outline: 0px solid white;
+        outline-offset: 15px;
+    }
+}
+
+#right * {
+    text-align: center;
+}
+
+#right p:nth-child(odd){
+    color: rgb(71, 118, 179);
+    font-size: 4em;
+    font-weight: 600;
+    font-family: sans-serif;
+    margin-top: 65px;
+    letter-spacing: 2px;
+}
+
+#right p:nth-child(even){
+    color: rgb(211, 211, 211);
+    font-family: sans-serif;    
+    letter-spacing: 1px;
+}
+
+#sertificates {
+    background-color: white;
+    padding-bottom: 100px;
+    border-top: 1px solid rgb(248, 248, 248);
+}
+
+#sertificates p {
+    text-transform: uppercase;
+    text-align: center;
+    font-family: sans-serif;
+    padding: 50px;
+    font-size: 1.7em;
+}
+
+#sertificates > div {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+#sertificates > div > img {
+    width: 220px;
+    margin: 20px auto;
+}
+
+#features {
+    padding: 10px 50px 300px 50px;
+    border-top: 1px solid rgb(238, 238, 238);
+    border-bottom: 1px solid rgb(238, 238, 238);
+    position: relative;
+}   
+
+#features > p {
+    text-transform: uppercase;
+    text-align: center;
+    font-family: sans-serif;
+    padding: 50px;
+    font-size: 1.7em;
+}
+
+#feature-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 50px;
+    
+}
+
+.feature {
+/* */
+visibility: visible;
+}
+
+.feature img {
+    margin-left: calc(50% - 25px);
+}
+
+.feature h5, p {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.feature h5 {
+    color:rgba(100, 100, 100);
+    font-size: 16px;
+    font-weight: 0;
+    margin-top: 15px;
+}
+
+.feature p{
+    font-size: 0.9em;
+    margin-top: 7px;
+    color:rgb(138, 138, 138);
+    padding: 0px 20px;  
+}
+
+#partners {
+    position: absolute;
+    bottom: -120px;
+    left: 15%;
+    width: 70%;
+    padding: 20px 50px;
+    background-color: white;
+    box-shadow: 0px 0px 15px 15px rgb(245, 245, 245);
+    border-radius: 5px;
+}
+
+.partners-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 20px 10px;
+}
+
+#partners p {
+    font-size: 1.6em;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 40px;
+}
